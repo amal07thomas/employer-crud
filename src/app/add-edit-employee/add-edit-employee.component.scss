@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    border-radius: 5px;
+  }
+  
+  .wrapper > div {
+    border-radius: 5px;
+    padding: 1em;
+  }
+  .button-container{
+    display: flex;
+  }
+  .button-half{
+    width: 49%;
+    background-color: tomato;
+    color: white;
+  }
+  .button-half-action{
+    width: 49%;
+    background-color: #1CAC78;
+    color: white;
+  }
+  
+  
